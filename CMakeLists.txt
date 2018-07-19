@@ -10,7 +10,6 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 catkin_package(
-    INCLUDE_DIRS include
     LIBRARIES host_console
     CATKIN_DEPENDS roscpp sensor_msgs serial rosgraph_msgs
 )
